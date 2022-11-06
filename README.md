@@ -1,4 +1,4 @@
-# Yandex.Practice QA-Engineer
+# Яндекс.Практикум – Инженер по тестированию
 
 Курс от **Яндекс.Практикума** по специальности инженер по тестированию - practicum.yandex.ru/profile/qa-engineer
 
