@@ -198,6 +198,7 @@ THEN 'Bad' ELSE 'Good' END AS weather_conditions
 WHERE ts BETWEEN '2017-11-05' AND '2017-11-06'
   GROUP BY ts, weather_conditions
 ORDER BY ts ASC;
+```
 
 ***
 
