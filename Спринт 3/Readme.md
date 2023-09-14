@@ -128,3 +128,32 @@
 ***
 
 </details>
+
+
+<details>
+<summary>Чек-лист и результаты выполнения тестов API Яндекс.Прилавок</summary>
+
+<details>
+<summary>Ручка POST /api/v1/kits/:id/products</summary>
+
+№	|Описание	|Статус	|ID баг-репорта
+--|---------|-------|--------------
+|  |**Добавление продуктов в набор POST /api/v1/kits/:id/products**| | |
+1 | Код и статус ответа 200 ОК|	PASSED||
+2 |Ошибок в структуре ответа нет|	PASSED||
+3 |Продукты добавлены в набор|	PASSED||
+||**Добавление продуктов с несуществующим id в набор POST /api/v1/kits/:id/products**|||
+4|Код и статус ответа 400 BAD REQUEST	|FAILED	|[BUG-904603](https://tracker.yandex.ru/BUG-904603)
+5|Продукты не добавлены в набор	|FAILED	|[BUG-904603](https://tracker.yandex.ru/BUG-904603)
+||**Добавление продуктов в несуществующий набор POST /api/v1/kits/:id/products**|||
+6|Код и статус ответа 404 NOT FOUND	|PASSED||
+7|Продукты не добавлены в набор	|PASSED||
+
+
+***
+
+</details>
+
+***
+
+</details>
