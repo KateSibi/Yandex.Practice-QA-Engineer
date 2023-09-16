@@ -1,4 +1,6 @@
-# Yandex.Practice QA-Engineer
+![image](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/assets/117051965/ae9b537f-91f6-4aff-bfe5-97ee1dc4e0d8)
+
+
 
 Курс от **Яндекс.Практикума** по специальности [Инженер по тестированию](practicum.yandex.ru/profile/qa-engineer)
 
