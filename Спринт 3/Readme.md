@@ -148,6 +148,32 @@
 ||**Добавление продуктов в несуществующий набор POST /api/v1/kits/:id/products**|||
 6|Код и статус ответа 404 NOT FOUND	|PASSED||
 7|Продукты не добавлены в набор	|PASSED||
+||**Добавление продуктов в несуществующий набор POST /api/v1/kits/:id/products**|||
+8|Код и статус ответа 404 NOT FOUND	|PASSED||
+9|Продукты не добавлены в набор	|PASSED||
+||**Добавление продуктов без указания id в набор POST /api/v1/kits/:id/products**|||
+10|Код и статус ответа 400 BAD REQUEST|	FAILED|[BUG-924048](https://tracker.yandex.ru/BUG-924048)|
+11|Ошибок в структуре ответа нет|	FAILED|[BUG-924048](https://tracker.yandex.ru/BUG-924048)|
+12|Продукты не добавлены в набор|	FAILED|[BUG-924048](https://tracker.yandex.ru/BUG-924048)|
+||**Добавление продуктов с id = 0 в набор POST /api/v1/kits/:id/products**|||
+13|Код и статус ответа 400 BAD REQUEST	|FAILED|[BUG-925676](https://tracker.yandex.ru/BUG-925676)|
+14|Продукты не добавлены в набор|	FAILED|[BUG-925676](https://tracker.yandex.ru/BUG-925676)|
+||**В теле запроса id отрицательные числа**|||
+15|Код и статус ответа 400 BAD REQUEST	|FAILED|[BUG-924163](https://tracker.yandex.ru/BUG-924163)|
+||**В теле запроса id буквы русского алфавита**|||
+16|Код и статус ответа 400 BAD REQUEST	|FAILED|[BUG-924545](https://tracker.yandex.ru/BUG-924545)|
+||**В теле запроса id буквы английского алфавита**|||
+17|Код и статус ответа 400 BAD REQUEST|	FAILED|[BUG-924545](https://tracker.yandex.ru/BUG-924545)|
+||**В теле запроса id спецсимволы**|||
+18|Код и статус ответа 400 BAD REQUEST|	FAILED|[BUG-924545](https://tracker.yandex.ru/BUG-924545)|
+||**В теле запроса quantity отрицательные числа**|||
+19|Код и статус ответа 400 BAD REQUEST	|FAILED|[BUG-924578](https://tracker.yandex.ru/BUG-924578)|
+||**В теле запроса quantity буквы русского алфавита**|||
+20|Код и статус ответа 400 BAD REQUEST	|FAILED|[BUG-924592](https://tracker.yandex.ru/BUG-924592)|
+
+
+
+
 
 
 ***
