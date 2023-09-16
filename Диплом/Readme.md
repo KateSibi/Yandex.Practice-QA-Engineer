@@ -353,3 +353,5 @@ WHERE Jobs.JOB_TYPE LIKE '%менеджер%' AND Jobs.SALARY > 70000;
 
 ### Ответ
 [Чек-лист API](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/files/12641413/-.1.pdf)
+
+
