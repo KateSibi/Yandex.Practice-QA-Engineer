@@ -45,6 +45,6 @@
 **[СПРИНТ 6 - Дипломная работа](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/tree/main/Диплом)**
 
 Задание 1: [Теория тестирования](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/blob/main/Диплом/Readme.md#задание-1-теория-тестирования)  
-Задание 2: Веб-приложение Яндекс.Самокат  
-Задание 3: Мобильное приложение Яндекс.Самокат  
-Задание 4: API приложения Яндекс.Самокат  
+Задание 2: [Веб-приложение Яндекс.Самокат](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/tree/main/Диплом#задание-2-веб-приложение-яндекссамокат)  
+Задание 3: [Мобильное приложение Яндекс.Самокат](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/tree/main/Диплом#задание-3-мобильное-приложение-яндекссамокат)   
+Задание 4: [API приложения Яндекс.Самокат](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/tree/main/Диплом#задание-4-api-приложения-яндекссамокат)  
