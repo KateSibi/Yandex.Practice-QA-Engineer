@@ -33,7 +33,7 @@
 2) SQL как инструмент работы с данными | SQL
 3) Отношения между таблицами | INNER JOIN | LEFT JOIN | RIGHT JOIN
 
-**СПРИНТ 5 - Основы автоматизации тестирования**
+**[СПРИНТ 5 - Основы автоматизации тестирования](https://github.com/KateSibi/Yandex.Practice-QA-Engineer/tree/main/Спринт%205)**
 
 1) Введение в JavaScript
 2) Основные конструкции
